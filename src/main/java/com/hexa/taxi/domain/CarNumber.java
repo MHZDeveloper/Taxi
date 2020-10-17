@@ -1,8 +1,5 @@
 package com.hexa.taxi.domain;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
-import com.fasterxml.jackson.annotation.JsonProperty;
-
 import java.util.Objects;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -11,7 +8,7 @@ public class CarNumber {
 
     private final String id;
 
-    public CarNumber(final String id) {
+    private CarNumber(final String id) {
         this.id = id;
     }
 
