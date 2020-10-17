@@ -1,0 +1,10 @@
+<div class="jumbotron">
+  <h1 class="display-4">Add Car</h1>
+  <form [formGroup]="carForm">
+        <input type="text" class="form-control" placeholder="Car Number" formControlName="carNumber">
+    <br>
+        <input type="text" class="form-control" placeholder="Driver" formControlName="driver">
+    <br>
+  </form>
+    <button class="btn btn-primary" (click)="onAdd()" [disabled]="carForm.invalid">Add</button>
+</div>

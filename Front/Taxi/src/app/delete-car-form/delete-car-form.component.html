@@ -1,0 +1,8 @@
+<div class="jumbotron">
+  <h1 class="display-4">Delete Car</h1>
+  <form [formGroup]="carForm">
+    <input type="text" class="form-control" placeholder="Car Number" formControlName="carNumber">
+    <br>
+  </form>
+  <button class="btn btn-primary" (click)="onDelete()" [disabled]="carForm.invalid">Delete</button>
+</div>
