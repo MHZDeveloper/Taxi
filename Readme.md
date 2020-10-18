@@ -1,13 +1,37 @@
 # TAXI
-Hello everyone for this mini project called "Taxi" (Cab) which for the moment is based on the addition and deletion of cabs by the user.
+"Taxi" (Cab) mini project has CRUD functionalities to manage cabs.
 
-A cab is characterized by the name of the **driver** as well as the **identification number** that follows the pattern (###-TUN-####). 
-And of course we have designed the necessary tests to support this pattern.
+A cab is characterized by the name of the **driver** as well as the **identification number** that follows the pattern (###-TUN-####).
 
-There is also a fake config which represents a fake database and which will be manipulated in the service layer.
+##Building
 
-Finally we have exposed 3 REST services (GET, POST, DELETE) to manipulate cabs through an intermediate representation (DTO) of a cab.
+Building this project requires the following tools:
 
-##Backend :
-- Framework : Spring Boot
-- 
+- Git (obviously)
+- JDK 11 (Oracle's JDK or OpenJDK recommended)
+- Angular 7.2.1+
+- Node JS 14.13.1+
+- maven 3.3.9
+
+Get the source code:
+
+ --- 
+    $ git clone https://github.com/MHZDeveloper/Taxi.git
+    $ cd Taxi
+ ---
+
+To run spring boot, run :
+
+ ---
+    $ mvn spring-boot:run
+ ---
+  
+To run the frontend, run :
+
+ ---
+    $ npm install
+    $ npm start
+ ---
+
+Enjoy !!!
+ 
