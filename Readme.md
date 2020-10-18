@@ -3,7 +3,7 @@
 
 A cab is characterized by the name of the **driver** as well as the **identification number** that follows the pattern (###-TUN-####).
 
-##Building
+## Building
 
 Building this project requires the following tools:
 
@@ -29,6 +29,7 @@ To run spring boot, run :
 To run the frontend, run :
 
  ---
+    $ cd Front/Taxi
     $ npm install
     $ npm start
  ---
